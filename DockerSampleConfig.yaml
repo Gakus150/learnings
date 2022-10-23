@@ -13,8 +13,8 @@ spec:
         app: Dockersampleconfig
     spec:
       containers:
-      - name: usmshcr
-        image: usmshcr.azurecr.io/learningrepos:latest
+      - name: gakctr
+        image: gakctr.azurecr.io/sundayrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
